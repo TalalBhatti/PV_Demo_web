@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+  function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+    <title>Project Vendors</title>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
+<!--header-->
+ <header>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <!-- One of the primary actions on mobile is to call a business - This displays a phone button on mobile only -->
+
+  <div class="navbar-toggler-right">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  </div>
+
+  <div class="collapse navbar-collapse flex-column"  id="navbar">
+    <ul class="navbar-nav  w-100 justify-content-left px-3" > 
+      <li class="nav-item dropdown white">
+        <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          select language
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">english</a>
+          <a class="dropdown-item" href="#">arabic</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Region</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    <ul class="navbar-nav ml-auto nav-flex-icons flex-row">
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light icons" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light icons" href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light icons"   href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+    </ul>
+    <div class="scroll-down">
+      <img class="title-logo" src= "images/logo.png" alt = "not-found">
+    </div>
+    <ul class="navbar-nav justify-content-center second-nav w-100 px-3">
+      <li class="nav-item header-links">
+        <a class="nav-link" href="#id0">HOME</a>
+      </li>
+      <li class="nav-item header-links">
+        <a class="nav-link" href="#id1">ABOUT US</a>
+      </li>
+      <li class="nav-item header-links">
+        <a class="nav-link" href="responsive.html">PROJECTS</a>
+      </li><li class="nav-item header-links">
+        <a class="nav-link" href="contact_us.html">CONTACT US</a>
+    </ul>
+
+
+  </div>
+
+</nav>
+</header>
+
+  <!-- main body -->
+<main class="article-page">
+  <section class="article-section" id="id0">
+    <div class ="container">
+    <div class="body-title">
+    <div class="fb-video" data-autoplay="true"  data-width="500"
+  data-href="https://www.facebook.com/ProjectVendors786/videos/336077910385085/" data-show-text="false" data-width=""><blockquote cite="https://developers.facebook.com/ProjectVendors786/videos/336077910385085/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/ProjectVendors786/videos/336077910385085/"></a><p>Stay tuned for a glimpse of our works.</p>Posted by <a href="https://www.facebook.com/ProjectVendors786/">Project Vendors</a> on Saturday, June 8, 2019</blockquote></div>
+    <h2 class="text-head">Introduction</h2>
+          <p><i> “If you don't know where you are going. How can you expect to get there?"</i> ~ <b>Basil S. Walsh</b> <br>
+Project Vendors are here to guide you the best path!!
+We prioritise and focus on ensuring that your venture is completed and delivered right before time in reasonable price at your door stop. So what are you waiting for? </p>
+    </div>
+    <div class="Poster-section">
+    <img src="images/first.jpg" class="poster">
+    </div>
+    <br>
+    <br>
+  </section>
+    <div class="container figures pt-80 pb-80">
+     
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+                    <div class="funfact text-center">
+                        <h2 >20+</h2>
+                        <h5 >Micro-Controller based Projects</h5>
+                    </div><br><br>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+                    <div class="funfact text-center">
+                        <h2>3</h2>
+                        <h5 >Courses </h5>
+                    </div><br><br>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+                    <div class="funfact text-center">
+                        <h2 >1</h2>
+                        <h5>Websites </h5>
+                    </div><br><br>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-md-50">
+                    <div class="funfact text-center">
+                        <h2 >10+</h2>
+                        <h5>Small Projects</h5>
+                    </div><br><br>
+                </div>
+            </div>
+        </div>  
+</main>
+<br>
+<br>
+<section id="id1"
+<div class="box">
+    <div class="container">
+    <h1 class="center"> What Are We Doing? </h1>
+     	<div class="row">
+			 
+			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <img src="images/1.jpeg" class="icon-we">
+                        
+						<div class="title">
+							<h4>RPI Projects</h4>
+						</div>
+                        
+					 </div><br><br>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+					    
+					    <img src="images/2.png" class="icon-we">
+                    
+						<div class="title">
+							<h4>Arduino Projects</h4>
+						</div>
+					 </div><br><br>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <img src="images/3.jpg" class="icon-we">
+                        
+						<div class="title">
+							<h4>Automation</h4>
+						</div>
+
+                        
+					 </div><br><br>
+				</div>	 
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <img src="images/4.png" class="icon-we">
+                        
+						<div class="title">
+							<h4>FYP's</h4>
+						</div>
+                        
+			
+                        
+					 </div><br><br>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+					    
+					    <img src="images/5.png" class="icon-we">
+                    
+						<div class="title">
+							<h4>Web Development</h4>
+						</div>
+                      
+					 </div><br><br>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <img src="images/6.png" class="icon-we">
+                        
+						<div class="title">
+							<h4>Courses</h4>
+						</div>
+   
+                        
+					 </div><br><br>
+                     </div>
+                     </div>
+                     </div>
+
+<footer class="page-footer font-small text-white dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container">
+    
+    <div class= "row">
+      <div class="col-lg-6 col-md-6  text-md-left">
+        <h5 class = "subscribe"><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers</h5>
+        <form class="input-group footer-form">
+        <input type="text" class="form-control form-control-sm" placeholder="Enter Your Email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0 " style= "background-color: #A9CF46;" type="button">Subscribe</button>
+          </div>
+        </form>
+        <h5 class = "subscribe">By sharing your email, You agree to our <strong>Terms of Use</strong> & <strong>Privacy Policy</strong></h5>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+        <h5 class=" text-uppercase" style="color: #ddd; 
+        margin-bottom: 10px;">Company</h5>
+
+        <ul class="list-styled">
+          <li>
+            <a href="#!" class="text-white">About Us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Advertisment</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Contact Us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">FAQ's</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+        <h5 class=" text-uppercase" style="color: #ddd;
+    margin-bottom: 10px;">ACCOUNT</h5>
+
+        <ul class="list-styled">
+          <li>
+            <a href="#!" class="text-white">Request Trial</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Subscription Plans</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">My Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "text-md-right">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    <div>
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold text-white dark">DISCLAIMER:</h5>
+        <p class = "dark-p">This website is under construction, soon it will be developed properly
+       </p>
+
+    </div>
+  
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8 ">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left copyrigth dark" >
+          Copyrights © 2020 Project Vendors.       
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fas fa-phone"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+</footer>
+  <script>includeHTML();</script>
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+
+</body>
+</html>
+
